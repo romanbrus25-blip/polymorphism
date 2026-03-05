@@ -19,6 +19,8 @@ public class UniversityMember
         Name = name;
         MemberId = memberId;
     }
+    
+    public int ActionCount => ActionLog.Count;
 
     public virtual void PerformDuties()
     {
